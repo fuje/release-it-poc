@@ -1,6 +1,6 @@
 {
   "name": "release-it-poc",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,9 @@
   },
   "release-it": {
     "npm": false,
+    "git": {
+      "addUntrackedFiles": true
+    },
     "plugins": {
       "@release-it/bumper": {
         "out": [
