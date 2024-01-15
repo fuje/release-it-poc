@@ -1,0 +1,40 @@
+{
+  "name": "release-it-poc",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changelog-fragment:feature": "news-fragments create feature",
+    "changelog-fragment:bugfix": "news-fragments create bugfix",
+    "changelog-fragment:doc": "news-fragments create doc",
+    "changelog-fragment:removal": "news-fragments create removal",
+    "changelog-fragment:misc": "news-fragments create misc",
+    "changelog:burn-fragments": "news-fragments burn",
+    "release": "release-it"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@release-it/bumper": "^6.0.1",
+    "news-fragments": "^3.0.10",
+    "release-it": "^17.0.1"
+  },
+  "release-it": {
+    "plugins": {
+      "@release-it/bumper": {
+        "out": [
+          {
+            "file": "package.json",
+            "path": "version"
+          },
+          {
+            "file": "sonar-project.properties",
+            "type": "text/x-properties",
+            "path": "sonar.projectVersion"
+          }
+        ]
+      }
+    }
+  }
+}

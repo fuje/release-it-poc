@@ -1,0 +1,39 @@
+
+[//]: # (s-0.1.0)
+
+# [0.1.0] - (2024-01-15)
+
+[//]: # (e-0.1.0)
+
+
+[//]: # (s-1.1.1)
+
+# [1.1.1] - (2024-01-15)
+
+## Deprecations and Removals
+* Teste pra criacao de removal.
+
+[//]: # (e-1.1.1)
+
+
+[//]: # (s-1.1.0)
+
+# [1.1.0] - (2024-01-15)
+
+## Features
+* Teste pra criacao de feature.
+
+## Bugfixes
+* Teste pra criacao de bugfix.
+
+## Documentation
+* Teste pra criacao de doc changes.
+
+## Deprecations and Removals
+* Teste pra criacao de removal.
+
+## Misc
+* Teste pra criacao de misc changes.
+
+[//]: # (e-1.1.0)
+
