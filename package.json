@@ -1,6 +1,6 @@
 {
   "name": "release-it-poc",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,15 +22,17 @@
   },
   "release-it": {
     "npm": false,
-    "github": {
-      "release": true
-    },
     "plugins": {
       "@release-it/bumper": {
         "out": [
           {
             "file": "package.json",
             "path": "version"
+          },
+          {
+            "file": "sonar-project.properties",
+            "type": "text/x-properties",
+            "path": "sonar.projectVersion"
           }
         ]
       }
