@@ -1,4 +1,14 @@
 
+[//]: # (s-1.1.6)
+
+# [1.1.6] - (2024-01-15)
+
+## Deprecations and Removals
+* Teste pra criacao de removal.
+
+[//]: # (e-1.1.6)
+
+
 [//]: # (s-1.1.5)
 
 # [1.1.5] - (2024-01-15)
