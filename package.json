@@ -27,11 +27,6 @@
           {
             "file": "package.json",
             "path": "version"
-          },
-          {
-            "file": "sonar-project.properties",
-            "type": "text/x-properties",
-            "path": "sonar.projectVersion"
           }
         ]
       }
