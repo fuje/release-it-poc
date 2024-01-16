@@ -1,6 +1,6 @@
 {
   "name": "release-it-poc",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,6 @@
       "addUntrackedFiles": true
     },
     "plugins": {
-      "news-fragments": {},
       "@release-it/bumper": {
         "out": [
           {
