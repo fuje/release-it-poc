@@ -1,4 +1,20 @@
 
+[//]: # (s-1.2.0)
+
+# [1.2.0] - (2024-01-16)
+
+## Features
+* Criacao do componente de atendimentos abertos.
+
+## Bugfixes
+* Correcao de campos de input de valor moneario.
+
+## Misc
+* Atualizacao de dependencias.
+
+[//]: # (e-1.2.0)
+
+
 [//]: # (s-1.1.8)
 
 # [1.1.8] - (2024-01-15)
