@@ -1,6 +1,6 @@
 {
   "name": "release-it-poc",
-  "version": "1.2.2",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "changelog-fragment:removal": "news-fragments create removal",
     "changelog-fragment:misc": "news-fragments create misc",
     "changelog:burn-fragments": "news-fragments burn",
-    "release": "release-it --no-git.requireCleanWorkingDir"
+    "release": "release-it"
   },
   "author": "",
   "license": "ISC",
@@ -22,10 +22,8 @@
   },
   "release-it": {
     "npm": false,
-    "git": {
-      "addUntrackedFiles": true
-    },
     "plugins": {
+      "news-fragments": {},
       "@release-it/bumper": {
         "out": [
           {
