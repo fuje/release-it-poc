@@ -1,4 +1,15 @@
 
+[//]: # (s-1.2.3)
+
+# [1.2.3] - (2024-01-16)
+
+## Bugfixes
+* Correcao de campos de input de teste.
+* Correcao de campos de input de teste.
+
+[//]: # (e-1.2.3)
+
+
 [//]: # (s-1.2.1)
 
 # [1.2.1] - (2024-01-16)
