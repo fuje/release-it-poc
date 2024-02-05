@@ -1,4 +1,17 @@
 
+[//]: # (s-1.2.4)
+
+# [1.2.4] - (2024-02-05)
+
+## Bugfixes
+* Corrige erro na listagem da API.
+
+## Misc
+* Atualizacao de dependencias.
+
+[//]: # (e-1.2.4)
+
+
 [//]: # (s-1.2.3)
 
 # [1.2.3] - (2024-01-16)
